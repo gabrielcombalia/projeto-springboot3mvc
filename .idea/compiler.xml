@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo3" />
-        <module name="amigoscodespring3-tutorial" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="amigoscodespring3-tutorial" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
